@@ -1,0 +1,84 @@
+[
+  {
+    "provider_id": "P1",
+    "name": "Salon lepote Bella",
+    "category": "Frizerski i kozmeticki salon",
+    "location": "Beograd - Vracar",
+    "rating": 4.7,
+    "services": [
+      {"service_id": "S1", "name": "Sisanje", "duration_min": 30, "price_rsd": 1500},
+      {"service_id": "S2", "name": "Farbanje kose", "duration_min": 90, "price_rsd": 4500},
+      {"service_id": "S3", "name": "Manikir", "duration_min": 45, "price_rsd": 1800}
+    ],
+    "available_slots": [
+      {"date": "2026-09-10", "time": "10:00", "service_id": "S1"},
+      {"date": "2026-09-10", "time": "14:00", "service_id": "S2"},
+      {"date": "2026-09-11", "time": "09:30", "service_id": "S3"},
+      {"date": "2026-09-14", "time": "11:00", "service_id": "S1"}
+    ]
+  },
+  {
+    "provider_id": "P2",
+    "name": "Wellness centar Oaza",
+    "category": "Spa i wellness",
+    "location": "Beograd - Novi Beograd",
+    "rating": 4.9,
+    "services": [
+      {"service_id": "S4", "name": "Relax masaza celog tela", "duration_min": 60, "price_rsd": 3200},
+      {"service_id": "S5", "name": "Sportska masaza", "duration_min": 45, "price_rsd": 2800}
+    ],
+    "available_slots": [
+      {"date": "2026-09-10", "time": "09:00", "service_id": "S4"},
+      {"date": "2026-09-12", "time": "17:00", "service_id": "S5"},
+      {"date": "2026-09-13", "time": "10:00", "service_id": "S4"},
+      {"date": "2026-09-14", "time": "18:30", "service_id": "S4"}
+    ]
+  },
+  {
+    "provider_id": "P3",
+    "name": "FitZone Personal Training",
+    "category": "Fitnes i personalni trening",
+    "location": "Beograd - Zvezdara",
+    "rating": 4.6,
+    "services": [
+      {"service_id": "S6", "name": "Individualni trening (60 min)", "duration_min": 60, "price_rsd": 2500},
+      {"service_id": "S7", "name": "Konsultacije za ishranu", "duration_min": 30, "price_rsd": 1500}
+    ],
+    "available_slots": [
+      {"date": "2026-09-11", "time": "07:00", "service_id": "S6"},
+      {"date": "2026-09-11", "time": "18:00", "service_id": "S6"},
+      {"date": "2026-09-13", "time": "08:00", "service_id": "S7"}
+    ]
+  },
+  {
+    "provider_id": "P4",
+    "name": "Instruktor Marko - casovi matematike",
+    "category": "Instrukcije i tutorstvo",
+    "location": "Beograd - online / Novi Sad",
+    "rating": 5.0,
+    "services": [
+      {"service_id": "S8", "name": "Cas matematike (60 min)", "duration_min": 60, "price_rsd": 1800},
+      {"service_id": "S9", "name": "Priprema za prijemni ispit (90 min)", "duration_min": 90, "price_rsd": 2600}
+    ],
+    "available_slots": [
+      {"date": "2026-09-10", "time": "16:00", "service_id": "S8"},
+      {"date": "2026-09-12", "time": "10:00", "service_id": "S9"},
+      {"date": "2026-09-14", "time": "16:00", "service_id": "S8"}
+    ]
+  },
+  {
+    "provider_id": "P5",
+    "name": "Majstor za sve - Nenad",
+    "category": "Sitne popravke u domacinstvu",
+    "location": "Beograd - Zemun",
+    "rating": 4.4,
+    "services": [
+      {"service_id": "S10", "name": "Popravka slavine/instalacije (do 60 min)", "duration_min": 60, "price_rsd": 2200},
+      {"service_id": "S11", "name": "Montaza nametaja", "duration_min": 120, "price_rsd": 3500}
+    ],
+    "available_slots": [
+      {"date": "2026-09-11", "time": "13:00", "service_id": "S10"},
+      {"date": "2026-09-13", "time": "15:00", "service_id": "S11"}
+    ]
+  }
+]
