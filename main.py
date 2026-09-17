@@ -91,3 +91,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+   # Poslednje azuriranje: integracija zavrsena (SCRUM-30)
